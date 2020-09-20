@@ -11,6 +11,12 @@ The APP is designed for Linux terminals running Python 3.x
 * Create a SQLlite DB file in the same directory
 * Use the create statement to make one table with 2 columns.
 
+`CREATE TABLE "notes" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"heading"	TEXT,
+	"note"	TEXT
+);`
+
 **Pip install :**
 * prettytable
 * clipboard
